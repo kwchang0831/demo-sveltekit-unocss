@@ -10,16 +10,15 @@
 	}
 </script>
 
+<div class=":uno: absolute top-2 right-2 all:transition-400 animate-slide-in-down">
+	<button aria-label="Dark Mode Switch" on:click={darkmodeSwitch}>
+		<div class=":uno: !w-[2rem] !h-[2rem] text-inherit i-carbon-sun dark:i-carbon-moon" />
+	</button>
+</div>
 <div class=":uno: flex h-screen text-center select-none all:transition-400">
-	<div class=":uno: absolute top-2 right-2">
-		<button aria-label="Dark Mode Switch" on:click={darkmodeSwitch}>
-			<div class=":uno: !w-[2rem] !h-[2rem] text-inherit i-carbon-sun dark:i-carbon-moon" />
-		</button>
-	</div>
-
 	<div class="ma">
 		<div
-			class=":uno: text-5xl text-black dark:text-blue-500 fw100 animate-bounce-alt animate-count-infinite animate-duration-1s"
+			class=":uno: text-5xl text-black hover:text-green-600 dark:text-blue-500 fw100 animate-bounce-alt animate-count-infinite animate-duration-1s"
 		>
 			unocss
 		</div>
@@ -31,6 +30,6 @@
 		</div>
 	</div>
 </div>
-<div class=":uno: absolute left-0 right-0 text-center bottom-5 op60 fw300">
+<div class=":uno: absolute left-0 right-0 text-center bottom-5 op60 fw300 select-none">
 	on-demand · instant · fully customizable
 </div>
