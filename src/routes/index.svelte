@@ -1,5 +1,6 @@
 <script lang="ts">
 	import themeStore, { setTheme } from 'svelte-themes';
+	import { fly } from 'svelte/transition';
 
 	function darkmodeSwitch() {
 		if ($themeStore.theme === 'dark') {
@@ -10,11 +11,14 @@
 	}
 </script>
 
-<div class=":uno: absolute top-2 right-2 all:transition-400 animate-slide-in-down">
-	<button aria-label="Dark Mode Switch" on:click={darkmodeSwitch}>
-		<div class=":uno: !w-[2rem] !h-[2rem] text-inherit i-carbon-sun dark:i-carbon-moon" />
-	</button>
-</div>
+{#key $themeStore.theme}
+	<div class=":uno: absolute top-2 right-2 all:transition-400 animate-slide-in-down">
+		<button aria-label="Dark Mode Switch" on:click={darkmodeSwitch}>
+			<div class=":uno: !w-[2rem] !h-[2rem] text-inherit i-carbon-sun dark:i-carbon-moon" />
+		</button>
+	</div>
+{/key}
+
 <div class=":uno: flex h-screen text-center select-none all:transition-400">
 	<div class="ma">
 		<div
