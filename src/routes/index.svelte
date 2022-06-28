@@ -1,6 +1,5 @@
 <script lang="ts">
 	import themeStore, { setTheme } from 'svelte-themes';
-	import { fly } from 'svelte/transition';
 
 	function darkmodeSwitch() {
 		if ($themeStore.theme === 'dark') {
