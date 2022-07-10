@@ -13,7 +13,7 @@
 {#key $themeStore.theme}
 	<div class="absolute top-2 right-2 all:transition-400 animate-slide-in-down">
 		<button aria-label="Dark Mode Switch" on:click={darkmodeSwitch}>
-			<div class="!w-[2rem] !h-[2rem] text-inherit i-carbon-sun dark:i-carbon-moon" />
+			<div class="i-carbon-sun dark:i-carbon-moon" />
 		</button>
 	</div>
 {/key}
@@ -28,7 +28,7 @@
 		<div class="text-lg op60 fw300 m1">The instant on-demand Atomic CSS engine.</div>
 		<div class="flex justify-center text-2xl m2 op60 hover:op100">
 			<a href="https://github.com/unocss/unocss" target="_blank" aria-label="Get UnoCSS">
-				<div class="!w-[2rem] !h-[2rem]  i-carbon-logo-github text-inherit" />
+				<div class="i-carbon-logo-github" />
 			</a>
 		</div>
 	</div>
