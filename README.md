@@ -1,7 +1,8 @@
-<h1 align="center">Sveltekit + unocss = Demo</h1>
-<p align="center">
-<a href="https://demo-sveltekit-unocss.vercel.app/">🚀 Demo on Vercel</a>
-</p>
+<h1 align="center">Demo = sveltekit + unocss + dark mode</h1>
+<div align="center">
+<p><a href="https://demo-sveltekit-unocss.vercel.app/">🚀 Demo on Vercel 🚀</a></p>
+<a href="https://demo-sveltekit-unocss.vercel.app/"><img src="https://user-images.githubusercontent.com/88667293/178140503-81465f92-47b9-4006-a4b3-66b492069603.png" alt="demo-sveltekit-unocss" width="680px" /></a>
+</div>
 
 ## 🎉 Try it out
 
