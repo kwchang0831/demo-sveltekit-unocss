@@ -13,8 +13,8 @@
 	},
 	"devDependencies": {
 		"@iconify-json/carbon": "^1.1.6",
-		"@sveltejs/adapter-auto": "1.0.0-next.59",
-		"@sveltejs/kit": "1.0.0-next.372",
+		"@sveltejs/adapter-auto": "1.0.0-next.60",
+		"@sveltejs/kit": "1.0.0-next.375",
 		"@typescript-eslint/eslint-plugin": "^5.30.6",
 		"@typescript-eslint/parser": "^5.30.6",
 		"@unocss/core": "^0.44.2",
