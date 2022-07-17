@@ -26,7 +26,7 @@
 		"@unocss/transformer-compile-class": "^0.44.3",
 		"@unocss/transformer-directives": "^0.44.3",
 		"@unocss/transformer-variant-group": "^0.44.3",
-		"eslint": "^8.19.0",
+		"eslint": "^8.20.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^2.7.1",
