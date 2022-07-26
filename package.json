@@ -14,9 +14,9 @@
 	"devDependencies": {
 		"@iconify-json/carbon": "^1.1.7",
 		"@sveltejs/adapter-auto": "1.0.0-next.63",
-		"@sveltejs/kit": "1.0.0-next.393",
-		"@typescript-eslint/eslint-plugin": "^5.30.7",
-		"@typescript-eslint/parser": "^5.30.7",
+		"@sveltejs/kit": "1.0.0-next.394",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
 		"@unocss/core": "^0.44.7",
 		"@unocss/preset-icons": "^0.44.7",
 		"@unocss/preset-typography": "^0.44.7",
