@@ -7,18 +7,14 @@ import transformerVariantGroup from '@unocss/transformer-variant-group';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-
-  plugins: [
-    Unocss({
-      extractors: [extractorSvelte],
-      presets: [presetUno(), presetTypography(), presetIcons({ scale: 2.0})],
-      transformers: [
-        transformerDirective(),
-        transformerVariantGroup()
-      ]
-    }),
-    sveltekit(),
-  ],
+	plugins: [
+		Unocss({
+			extractors: [extractorSvelte],
+			presets: [presetUno(), presetTypography(), presetIcons({ scale: 2.0 })],
+			transformers: [transformerDirective(), transformerVariantGroup()]
+		}),
+		sveltekit()
+	]
 };
 
 export default config;
