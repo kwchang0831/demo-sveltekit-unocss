@@ -1,18 +1,10 @@
 <script lang="ts">
-	import themeStore, { setTheme } from 'svelte-themes';
-
-	function darkmodeSwitch() {
-		if ($themeStore.theme === 'dark') {
-			setTheme('light');
-		} else {
-			setTheme('dark');
-		}
-	}
+	import { theme } from '$lib/stores/themes';
 </script>
 
-{#key $themeStore.theme}
+{#key $theme}
 	<div class="absolute top-2 right-2 all:transition-400 animate-slide-in-down">
-		<button aria-label="Dark Mode Switch" on:click={darkmodeSwitch}>
+		<button aria-label="Dark Mode Switch" on:click={theme.toggle}>
 			<div class="i-carbon-sun dark:i-carbon-moon" />
 		</button>
 	</div>
